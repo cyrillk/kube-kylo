@@ -17,7 +17,7 @@ spec:
       - env:
         - name: MYSQL_ROOT_PASSWORD
           value: hadoop
-        image: mariadb:10.3
+        image: tba-mysql:latest
         name: mysql
         ports:
         - containerPort: 3306
