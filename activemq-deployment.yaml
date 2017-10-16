@@ -15,6 +15,7 @@ spec:
       containers:
       - image: tba-activemq:latest
         name: activemq
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5601
         - containerPort: 61616
